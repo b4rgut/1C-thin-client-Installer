@@ -25,7 +25,7 @@ go install github.com/tc-hib/go-winres@latest
 
 ### Изменение параметров установщика
 
-1. Клонируйте репозиторий
+1. Клонируйте репозиторий:
    ```sh
    https://github.com/b4rgut/1C-thin-client-Installer.git
    ```
