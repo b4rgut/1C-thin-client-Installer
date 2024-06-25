@@ -33,18 +33,18 @@ go install github.com/tc-hib/go-winres@latest
    
 3. Скорректируйте `main.go` под ваши параметры
 
-3.1. Укажите ссылку на скачивание файла:
-```go
-url := "ваша ссылка на скачивание"
-```
-3.2. Укажите данные msi файла:
-```go
-msifile := msi{
-	filename:   "имя-файла.msi",
-	transforms: "имя-файла.mst",
-	dir:        filepath.Join(destDir, "имя-zip-архива"),
-}
-```   
+	3.1. Укажите ссылку на скачивание файла:
+	```go
+	url := "ваша ссылка на скачивание"
+	```
+	3.2. Укажите данные msi файла:
+	```go
+	msifile := msi{
+		filename:   "имя-файла.msi",
+		transforms: "имя-файла.mst",
+		dir:        filepath.Join(destDir, "имя-zip-архива"),
+	}
+	```   
 
 ### Сборка
 
