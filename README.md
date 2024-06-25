@@ -59,4 +59,4 @@ go-winres make
 $Env:CGO_ENABLED=0; $Env:GOOS='windows'; $Env:GOARCH='amd64'; go build -o bin/1C-Installer.exe
 ```
 
-После чего в папке `bin` появится исполняемый файл `1C-Installer.exe`. Который можно отправить клиентам любым удобным способом
+После чего в папке `bin` появится исполняемый файл `1C-Installer.exe`. Который можно отправить клиентам любым удобным способом.
