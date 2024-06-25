@@ -134,6 +134,7 @@ func main() {
 		return
 	}
 
+	// Ссылка на скачивание zip архива с тонким клиентом 1С
 	url := "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/qb0BL77SZJVKww"
 
 	err = makeDir(filepath.Join(dir, "tempInstaller"))
@@ -165,9 +166,9 @@ func main() {
 	fmt.Println("Архив распакован.")
 
 	msifile := msi{
-		filename:   "1CEnterprise 8 Thin client (x86-64).msi",
-		transforms: "1049.mst",
-		dir:        filepath.Join(destDir, "setuptc64_8_3_24_1586"),
+		filename:   "1CEnterprise 8 Thin client (x86-64).msi", // Название MSI файла
+		transforms: "1049.mst", // Название файла трансформации
+		dir:        filepath.Join(destDir, "setuptc64_8_3_24_1586"), // Путь до директории с MSI файлом, изменить только название ZIP архива
 	}
 
 	err = installMSI(msifile)
