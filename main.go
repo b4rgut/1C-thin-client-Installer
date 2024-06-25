@@ -135,7 +135,7 @@ func main() {
 	}
 
 	// Ссылка на скачивание zip архива с тонким клиентом 1С
-	url := "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/qb0BL77SZJVKww"
+	url := "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/xxxxxxxxxxxx"
 
 	err = makeDir(filepath.Join(dir, "tempInstaller"))
 	if err != nil {
