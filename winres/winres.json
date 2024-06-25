@@ -1,0 +1,61 @@
+{
+  "RT_GROUP_ICON": {
+    "APP": {
+      "0000": [
+        "icon.png",
+        "icon16.png"
+      ]
+    }
+  },
+  "RT_MANIFEST": {
+    "#1": {
+      "0419": {
+        "identity": {
+          "name": "1C-Client-Installer",
+          "version": "1.0.0.0"
+        },
+        "description": "Автоматический установщик тонкого клиента 1С",
+        "minimum-os": "win7",
+        "execution-level": "administrator",
+        "ui-access": false,
+        "auto-elevate": false,
+        "dpi-awareness": "system",
+        "disable-theming": false,
+        "disable-window-filtering": false,
+        "high-resolution-scrolling-aware": false,
+        "ultra-high-resolution-scrolling-aware": false,
+        "long-path-aware": false,
+        "printer-driver-isolation": false,
+        "gdi-scaling": false,
+        "segment-heap": false,
+        "use-common-controls-v6": false
+      }
+    }
+  },
+  "RT_VERSION": {
+    "#1": {
+      "0000": {
+        "fixed": {
+          "file_version": "1.0.0.0",
+          "product_version": "1.0.0.0"
+        },
+        "info": {
+          "0419": {
+            "Comments": "",
+            "CompanyName": "Алексей Кальсин",
+            "FileDescription": "Автоматический установщик тонкого клиента 1С",
+            "FileVersion": "1.0.0.0",
+            "InternalName": "1c-client-installer",
+            "LegalCopyright": "Алексей Кальсин",
+            "LegalTrademarks": "",
+            "OriginalFilename": "1c-client-installer.exe",
+            "PrivateBuild": "",
+            "ProductName": "1C-Client-Installer",
+            "ProductVersion": "1.0.0.0",
+            "SpecialBuild": ""
+          }
+        }
+      }
+    }
+  }
+}
